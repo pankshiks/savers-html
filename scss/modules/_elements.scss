@@ -481,12 +481,13 @@
 		content: "";
 		background: url(../images/layer-lb-top.png);
 		position: absolute;
-		top: -10px;
+		top: -14px;
 		height: 14px;
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+
 	
 	.card-inner {
 		@media (min-width:1200px) {
@@ -494,6 +495,7 @@
 		}
 	}
 }
+
 
 .full-width-media-layer {
   img {
@@ -522,6 +524,18 @@
 		margin: 18px 0px;
 	}
   }	
+
+  &.move-top-minus {
+	  margin-top : -8%;
+	@media(max-width: 992px) {
+		margin-top: -5%;
+	}
+
+	  @media(max-width: 767px) {
+		margin-top: 0%;
+	}	 
+	  
+  }
 }
 
 
@@ -613,7 +627,7 @@
 		content: "";
 		background: url(../images/layer.png);
 		position: absolute;
-		top: 0px;
+		top: 1px;
 		height: 14px;
 		width: 100%;
 		background-repeat: no-repeat;
@@ -624,6 +638,10 @@
 	.common-heading-block {
 		h2,h6 {
 			color:#fff;
+		}
+
+		h2 {
+			margin-bottom: 40px;
 		}
 		.heading-inner {
 			margin-bottom:32px;
@@ -1389,7 +1407,7 @@ body .textfield-wrap-with-btn {
 		display:inline-block;
 		text-align: center;
 		padding: 0 10px;
-		margin-bottom:20px;
+		margin-bottom:40px;
 		@media (min-width:768px) {
 			width: 19.6%;
 		}
@@ -1465,6 +1483,20 @@ body .textfield-wrap-with-btn {
 
 }
 
+
+.media-slider {
+	overflow: hidden;
+	position: relative;
+	.owl-slider {
+		width: calc(100% - 100px);
+		.owl-stage-outer {
+			overflow: visible;
+		}
+	}
+	.owl-carousel {
+		position: static;
+	}
+}
 
 .modal-card-box {
     height: 347px;
@@ -2110,6 +2142,17 @@ body .find-job {
 	}
 }
 
+body {
+	.owl-carousel {
+		.owl-item {
+			.item {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
 .common-boxes-wrap {
   &.ptb-80 {
 	padding:80px 0px;

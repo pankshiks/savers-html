@@ -50,7 +50,7 @@
 							<img src="images/media1.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 padding-col-xs-5">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>My dream shipping container home with Value Village</p>
@@ -73,7 +73,7 @@
 							<img src="images/media2.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 padding-col-xs-5">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>Clothing waste has always been a big concern for me with a career in blogging. It can be hard not to get caught up in always wearing.</p>
@@ -96,7 +96,7 @@
 							<img src="images/media3.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 padding-col-xs-5">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>Transformed a skirt suit from a Value Village thrift find, baby DIY steps towards someday making my own blazer (still scary).</p>
@@ -119,7 +119,7 @@
 							<img src="images/media4.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 padding-col-xs-5">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>Treat your family on your next thriftventure! Find budget-friendly toys, books and more for your kids to enjoy at Value Village.</p>
@@ -142,7 +142,7 @@
 							<img src="images/media3.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 padding-col-xs-5">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>Stylist Myriam Laroche shares her secrets to discovering high-quality thrift finds and the best treasures at Value Village.</p>
@@ -165,7 +165,7 @@
 							<img src="images/media4.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 padding-col-xs-5">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p> My dream shipping container home with Value Village</p>

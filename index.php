@@ -121,7 +121,7 @@
 	<img class="mob-media" src="images/plus-full-width-layer-mob.png">
 </div>
 
-<div class="common-heading-block text-center">
+<div class="common-heading-block text-center move-top-minus">
 	<div class="container">
 		<div class="heading-inner">
 			<h2>Warm wishes from our <span>family to yours</span></h2>
@@ -377,7 +377,7 @@
 
 
 
-<div class="hero-card hero-card-medium mb-5">
+<div class="hero-card hero-card-medium mb-6">
 	<div class="container">
 		<div class="card-inner bg-grey">
 			<div class="row">

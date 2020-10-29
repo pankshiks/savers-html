@@ -19,7 +19,7 @@
 	<img class="hover-thumb" src="images/plus-full-width-layer.png">
 </div>
 
-<div class="common-heading-block text-center">
+<div class="common-heading-block text-center move-top-minus">
 	<div class="container">
 		<div class="heading-inner">
 			<h2>Eco fashion shows</h2>
@@ -35,7 +35,7 @@
 				<div class="col-md-6 hero-media-info">
 					<h3>The 81lb challenge</h3>
 					<p>We challenged designers to take 81 pounds of items that never sold from our stores and create an entire collection. All in one month.</p>
-					<a href="#" class="small-text-cta cta-black">View the entire show <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+					<a href="#" class="small-text-cta cta-black bold">View the entire show <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 				</div>
 				<div class="col-md-6 hero-media">
 					<img src="images/hero-media4.jpg">
@@ -83,7 +83,7 @@
 	<div class="container">
 		<div class="mb-4 carousel-heading-row">
 			<h4>Lookbook</h4>
-			<a href="#" class="small-text-cta cta-black">View the entire show <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+			<a href="#" class="small-text-cta cta-black bold">View the entire show <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 		</div>	
 	</div>
 	
@@ -142,7 +142,7 @@
 				<div class="col-md-6 hero-media-info">
 					<h3>Thrift chic challenge</h3>
 					<p>We challenged designers to create a runway collection using as-is clothing, textiles and accessories. Their vision coupled with our items made for some serious catwalk-worthy creations.</p>
-					<a href="#" class="small-text-cta cta-black">View the entire show <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+					<a href="#" class="small-text-cta cta-black bold">View the entire show <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 				</div>
 				<div class="col-md-6 hero-media">
 					<img src="images/hero-media4.jpg">
@@ -152,10 +152,35 @@
 	</div>	
 </div>
 
-<div class="team-block mt-5 mb-5">
+<div class="team-block mt-5 mb-4">
 	<div class="container">
 		<h4 class="mb-4">Designers</h4>
 		<ul class="team-listing">
+			<li>
+				<figure class="team-media"><img src="images/team-media1.png"></figure>
+				<h5 class="name">Carlie Wong</h5>
+				<a href="#">view the collection</a>
+			</li>
+			<li>
+				<figure class="team-media"><img src="images/young.png"></figure>
+				<h5 class="name">Young Oak</h5>
+				<a href="#">view the collection</a>
+			</li>
+			<li>
+				<figure class="team-media"><img src="images/kim.png"></figure>
+				<h5 class="name">Kim Cathers</h5>
+				<a href="#">view the collection</a>
+			</li>
+			<li>
+				<figure class="team-media"><img src="images/evan.png"></figure>
+				<h5 class="name">Evan Ducharme</h5>
+				<a href="#">view the collection</a>
+			</li>
+			<li>
+				<figure class="team-media"><img src="images/karla.png"></figure>
+				<h5 class="name">Karla Ortiz</h5>
+				<a href="#">view the collection</a>
+			</li>
 			<li>
 				<figure class="team-media"><img src="images/team-media1.png"></figure>
 				<h5 class="name">Carlie Wong</h5>
@@ -189,7 +214,7 @@
 	<div class="container">
 		<div class="mb-4 carousel-heading-row">
 			<h4>Lookbook</h4>
-			<a href="#" class="small-text-cta cta-black">View the entire show <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+			<a href="#" class="small-text-cta cta-black bold">View the entire show <i class="fa fa-caret-right" aria-hidden="true"></i></a>
 		</div>	
 	</div>
 	

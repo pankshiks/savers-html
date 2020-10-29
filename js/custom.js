@@ -220,7 +220,7 @@ $("#full-width-media-carousel,#full-width-media-carouse2").owlCarousel({
     },
 
     1366: {
-      items: 3
+      items: 4
     }
   }
 });

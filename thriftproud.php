@@ -147,7 +147,7 @@
 				<div class="col-md-6 hero-media-info">
 					<img src="images/thrift.png">
 					<h4 class="clr-white mt-3 mb-4">This way, rule breakers, style makers, and risk takers</h4>
-					<a href="javascript:void(0);" class="btn btn-primary">join now</a>
+					<a href="javascript:void(0);" class="btn btn-primary">Find a store</a>
 				</div>
 				<div class="col-md-6 hero-media">
 					<img src="images/card-media5.png">

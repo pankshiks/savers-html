@@ -11,3 +11,15 @@
 *:focus {
     outline: none;
 }
+
+.mb-6, .my-6 {
+    margin-bottom: 6rem !important;
+}
+
+@media(max-width: 767px) {
+    .padding-col-xs-5 {
+        padding-left: 5px;
+    }
+}
+
+ 

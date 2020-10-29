@@ -243,7 +243,9 @@
     transition: 0.3s all;
 	position: relative;	
 	
-	
+	&.bold {
+		font-weight: bold;
+	}
 	&.cta-white {
 		border-bottom: 2px solid #fff;
 		color:#fff;
