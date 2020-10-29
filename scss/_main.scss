@@ -11,13 +11,17 @@
 @import "components/typography.scss";
 @import "components/common-elements.scss";
 @import "components/buttons.scss";
+@import "components/responsive-tabs.scss";
 
  
 
 
 /*Partials*/
 @import "partials/header.scss";
-@import "partials/footer.scss";     
+@import "partials/footer.scss";   
+
+/*Contact*/
+@import "pages/contact-page.scss";     
 
 
  

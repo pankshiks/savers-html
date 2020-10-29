@@ -53,6 +53,9 @@
 .bg5 {
    background-image: url("../images/bg-new.jpg");
 }
+.bg6 {
+   background-image: url("../images/contact-banner.png");
+}
 
 
 
@@ -2555,6 +2558,7 @@ body {
 	body .bg5 {
 		background-image: url(../images/banner-new-mob.jpg);
 	} 
+ 
 
 	.banner-with-bg-media {
 		.banner-info {
@@ -2689,5 +2693,118 @@ body {
 	.modal-card-box .caption-block h5 span {
 		display: inline-block;
 	}
+
+}
+
+/*Contact Banner*/
+.banner-with-solid-bg.contact-banner {
+    min-height: 440px;
+	height: auto;
+	h2 {
+		margin-bottom: 15px;
+	}
+}
+
+.select-outer {
+	position: relative;
+	&:after {
+		content: "";
+		position: absolute;
+		right: 15px;
+		top: 18px;
+		border-top: 8px solid #000;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		pointer-events: none;
+	}
+
+	select {
+		width: 240px;
+		height: 40px;
+		border: 0;
+		border-radius: 3px;
+		padding: 0 20px;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+	}
+}
+.banner-form {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+
+	
+	
+	.search-form {
+		::-webkit-input-placeholder { /* Edge */
+			color: #000;  
+			opacity: 1;
+		}
+	
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			color: #000;  
+			opacity: 1;
+		}
+	
+		::placeholder {
+			color: #000; 
+			opacity: 1; 
+		}  
+	}
+	
+
+	.or {
+		display: block;
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+		margin: 0 22px;
+		text-transform: lowercase;
+	}
+
+	input[type="text"] {
+		width: 245px;
+		height: 40px;
+		border: 0;
+		border-radius: 3px;
+		padding: 0 20px;
+		float: left;
+		margin-right: 5px;
+	}
+	input[type="submit"] {
+		background: #e1231a;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 14px;
+		font-family: $gotham-bold-font;
+		text-transform: uppercase;
+		float: left;
+		border: 0;
+		padding: 8px 25px;
+		border-radius: 3px;
+	}
+
+}
+
+
+@media(max-width: 767px) {
+	.banner-form {
+		width: 245px;
+		margin: 0 auto;
+		display: block;
+
+		.or {
+			color: #000;
+			margin: 5px 0;
+		}
+
+		input[type="submit"] {
+			margin-top: 25px;
+			margin-bottom: 40px;
+			float: none;
+		}
+	}
+
 
 }
