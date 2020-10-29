@@ -1,0 +1,129 @@
+/*Global*/
+$gotham-book-font : Gotham-Book;
+$gotham-bold-font : gothambold;
+$gotham-thin-font : gothamthin;
+$gotham-md-font : gothammedium;
+$grey-color:#f0f0f0;
+$body-color:#000;
+$orange-color:#E1251B;
+$primary-color:#004E7D;
+$dark-brown:#7A120E;
+$d-green:#007473;
+$l-green:#97d6d7;
+$skin:#e2c9af;
+$green:#528B1A;
+$timing-color:#DA291C;
+$c-green:#007672;
+$donate-banner-bg:#173F35;
+$d-green1:#84BD00;
+$n-blue:#003B5C;
+$d-blue2:#003A5D;
+$card-clr1:#4A7729;
+$card-clr2:#00B2A9;
+$card-clr3:#943BBA;
+$card-clr4:#F2A900;
+$card-clr5:#00837E;
+$card-clr6:#E5417A;
+
+
+ 
+$mobile-navbar-bg : $orange-color;
+$mobile-permotion-bar : $primary-color;
+
+.clr-white {
+    color: #fff;
+}
+
+.clr-dgreen1{
+  color:$d-green1;
+}
+
+.clr-dgreen2{
+  color:$donate-banner-bg;
+}
+
+.clr-nblue {
+	color:$n-blue;
+}
+
+
+.clr-black {
+  color:$body-color;
+}
+
+.clr-green {
+	color:$green;
+}
+
+.timing-clr {
+  color:$timing-color;
+} 
+
+.bg-grey {
+  background:$grey-color;
+} 
+
+.primary-bg {
+	background:$primary-color;
+}
+
+.bg-dgreen {
+	background:$d-green;
+}
+
+.bg-lgreen {
+	background:$l-green;
+}
+
+.bg-cgreen {
+  background:$c-green !important;
+}
+
+.primary-bg1 {
+	background:$orange-color;
+}    
+
+.bg-skin {
+	background:$skin;
+}
+
+.bg-dblue2 {
+  background:$d-blue2 !important;
+}
+
+.banner-solid-bg {
+	background:$donate-banner-bg;
+}
+
+.text-grey {
+	color:#656565;
+}
+
+.bg-dgreen1{
+  background:$d-green1;
+}
+
+.card-bg1 {
+	background:$card-clr1;
+}
+
+.card-bg2 {
+	background:$card-clr2;
+}
+
+.card-bg3 {
+	background:$card-clr3;
+}
+
+.card-bg4 {
+	background:$card-clr4;
+}
+
+.card-bg5 {
+	background:$card-clr5;
+}
+
+.card-bg6 {
+	background:$card-clr6;
+}
+

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
+
+body {
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: $gotham-book-font;
+}
+
+
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('../fonts/gothambold-webfont.eot');
+    src: url('../fonts/gothambold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothambold-webfont.woff2') format('woff2'),
+         url('../fonts/gothambold-webfont.woff') format('woff'),
+         url('../fonts/gothambold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamthin';
+    src: url('../fonts/gotham-thin-webfont.eot');
+    src: url('../fonts/gotham-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-thin-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-thin-webfont.woff') format('woff'),
+         url('../fonts/gotham-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothammedium';
+    src: url('../fonts/gothammedium-webfont.eot');
+    src: url('../fonts/gothammedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothammedium-webfont.woff2') format('woff2'),
+         url('../fonts/gothammedium-webfont.woff') format('woff'),
+         url('../fonts/gothammedium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {font-family: "Gotham-Book";
+    src: url("../fonts/gotham-book.eot"); /* IE9*/
+    src: url("../fonts/gotham-book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/gotham-book.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/gotham-book.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/gotham-book.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/gotham-book.svg#IXOXQV Gotham-Book") format("svg"); /* iOS 4.1- */
+  }
+
+h1 {
+    font-size: 56px;
+	font-family: $gotham-bold-font;
+    @media(max-width: 767px) {
+        font-size: 40px;
+    }
+}
+h2 {
+	font-family: $gotham-bold-font;
+    font-size: 48px;
+    @media(max-width: 767px) {
+        font-size: 38px;
+    }
+}
+h3 {
+    font-size: 40px;
+	font-family: $gotham-bold-font;
+    @media(max-width: 767px) {
+        font-size: 32px;
+    }
+}
+h4 {
+	font-family: $gotham-bold-font;
+    font-size: 32px;
+    @media(max-width: 767px) {
+        font-size: 26px;
+    }
+}
+h5 {
+	font-family: $gotham-bold-font;
+    font-size: 24px;
+    @media(max-width: 767px) {
+        font-size: 20px;
+    }
+}
+h6 {
+	font-family: $gotham-bold-font;
+    font-size: 20px;
+    @media(max-width: 767px) {
+        font-size: 18px;
+    }
+}
+
+
+.body1 {
+  font-size:20px;
+  @media(max-width: 767px) {
+        font-size: 18px;
+    }
+}
+
+.body2 {
+  font-size:16px;
+}
+
+.small-text {
+  font-size:13px;
+  line-height:18px;
+  a {
+	text-decoration:underline;
+	color:#656565;
+  }
+}
