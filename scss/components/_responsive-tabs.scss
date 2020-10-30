@@ -1,9 +1,10 @@
-.nav-tabs {
-    display:none;
-}
+
 
 .responsive-tabs {
     margin: 50px 0;
+    .nav-tabs {
+        display:none;
+    }
     h6 {
         margin-bottom: 30px;
     }
@@ -158,20 +159,22 @@
     }
 }
 @media(min-width:993px) {
-    .nav-tabs {
-        display: flex;
-    }
-    
-    .card {
-        border: none;
-    }
+    .responsive-tabs {
+        .nav-tabs {
+            display: flex;
+        }
+        
+        .card {
+            border: none;
+        }
 
-    .card .card-header {
-        display:none;
-    }  
+        .card .card-header {
+            display:none;
+        }  
 
-    .card .collapse{
-        display:block;
+        .card .collapse{
+            display:block;
+        }
     }
 }
 
@@ -196,12 +199,14 @@
 }
 
 @media(max-width:992px){
-    .tab-content > .tab-pane {
-        display: block !important;
-        opacity: 1;
-    }
+   
 
     .responsive-tabs {
+        .tab-content > .tab-pane {
+            display: block !important;
+            opacity: 1;
+        }
+
         .vertical-tabs {
             ul.sub-tabs {
                 width: 100%;               

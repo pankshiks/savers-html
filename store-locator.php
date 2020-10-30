@@ -227,7 +227,7 @@
 		</div>
 		
 		
-		<div class="common-boxes-wrap">
+		<div class="common-boxes-wrap with-slides">
 			<div class="owl-slider">
 				<div id="carousel" class="owl-carousel">
 					<div class="item">

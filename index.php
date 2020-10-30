@@ -157,12 +157,12 @@
 		<div class="col-md-6">
 			<div class="vertical-list-wrap">
 				<div class="row">
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-right">
 						<div class="media-block">
 							<img src="images/media1.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 space-left">
 						<div class="media-info">
 							<span class="tag-style tag-bg1">style tips</span>
 							<h6>Style your dream space with secondhand finds</h6>
@@ -181,12 +181,12 @@
 		<div class="col-md-6">
 			<div class="vertical-list-wrap">
 				<div class="row">
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-right">
 						<div class="media-block">
 							<img src="images/media2.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 space-left">
 						<div class="media-info">
 							<span class="tag-style tag-bg2">eco</span>
 							<h6>Style your dream space with secondhand finds</h6>
@@ -205,12 +205,12 @@
 		<div class="col-md-6">
 			<div class="vertical-list-wrap">
 				<div class="row">
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-right">
 						<div class="media-block">
 							<img src="images/media3.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 space-left">
 						<div class="media-info">
 							<span class="tag-style tag-bg3">diy</span>
 							<h6>Style your dream space with secondhand finds</h6>
@@ -229,12 +229,12 @@
 		<div class="col-md-6">
 			<div class="vertical-list-wrap">
 				<div class="row">
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-right">
 						<div class="media-block">
 							<img src="images/media4.png">
 						</div>
 					</div>
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-left">
 						<div class="media-info">
 							<span class="tag-style tag-bg4">thrift tips</span>
 							<h6>Style your dream space with secondhand finds</h6>

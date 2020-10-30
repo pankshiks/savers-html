@@ -10095,6 +10095,7 @@ hr.hr-style {
 
 .hero-card {
   z-index: 1;
+  clear: both;
   position: relative;
 }
 .hero-card.hero-card-small {
@@ -10402,6 +10403,14 @@ hr.hr-style {
     align-items: center;
   }
 }
+@media (max-width: 767px) {
+  .two-column-vertical-list .space-left {
+    padding-left: 7.5px;
+  }
+  .two-column-vertical-list .space-right {
+    padding-right: 7.5px;
+  }
+}
 
 .four-column-card {
   margin: 30px 0px;
@@ -10423,7 +10432,7 @@ hr.hr-style {
   content: "";
   background: url(../images/layer.png);
   position: absolute;
-  top: 1px;
+  top: 0px;
   height: 14px;
   width: 100%;
   background-repeat: no-repeat;
@@ -10828,6 +10837,7 @@ body .textfield-wrap-with-btn .btn-primary {
 .common-card .bottom-links-row img {
   float: right;
   margin-top: 15px;
+  width: auto !important;
 }
 .common-card .bottom-links-row a {
   float: left;
@@ -10860,7 +10870,7 @@ body .textfield-wrap-with-btn .btn-primary {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 100%;
+  width: auto !important;
 }
 .common-card .layer-fixed-right {
   position: absolute;
@@ -10927,6 +10937,15 @@ body .textfield-wrap-with-btn .btn-primary {
 }
 .parking-list li:first-child {
   margin-left: 0;
+}
+@media (max-width: 767px) {
+  .parking-list {
+    float: left;
+    width: 100%;
+  }
+  .parking-list li {
+    width: calc(33.3% - 14px);
+  }
 }
 
 .payment-row p {
@@ -11169,6 +11188,7 @@ body .textfield-wrap-with-btn .btn-primary {
   margin: 0 7.5px 15px;
   list-style: none;
   display: inline-block;
+  float: left;
 }
 .carousel-media-block .mob-media-block li img {
   width: 100%;
@@ -11258,7 +11278,7 @@ body .textfield-wrap-with-btn .btn-primary {
 }
 
 .full-bleed-feature-media img {
-  max-width: 100%;
+  width: 100%;
 }
 @media (max-width: 767px) {
   .full-bleed-feature-media img {
@@ -11655,6 +11675,17 @@ body .textfield-wrap-with-btn .btn-primary {
     height: 150px;
   }
 }
+@media (max-width: 992px) {
+  .pinterest-board .row {
+    margin: 0 -7.5px;
+  }
+  .pinterest-board .row .col-md-3 {
+    padding: 0 7.5px;
+  }
+  .pinterest-board .row .pinterest-card {
+    margin-bottom: 25px;
+  }
+}
 
 .banner-with-bg-media {
   background-size: cover;
@@ -11756,6 +11787,22 @@ body .owl-carousel .owl-item .item img {
 
 .common-boxes-wrap.ptb-80 {
   padding: 80px 0px;
+}
+@media (max-width: 767px) {
+  .common-boxes-wrap.with-slides {
+    overflow: hidden;
+    margin: 0 -15px 0 0;
+  }
+  .common-boxes-wrap.with-slides .owl-slider {
+    width: calc(100% - 70px);
+  }
+  .common-boxes-wrap.with-slides .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  .common-boxes-wrap.with-slides .owl-dots {
+    position: relative;
+    left: 25px;
+  }
 }
 
 .boxes-two-rows .common-card {
@@ -11909,7 +11956,8 @@ body .owl-carousel .owl-item .item img {
   .store-near-by {
     padding: 30px 0px;
   }
-  .store-near-by h3 {
+  .store-near-by h4,
+.store-near-by h3 {
     text-align: center;
   }
   .store-near-by .address-box {
@@ -11926,7 +11974,7 @@ body .owl-carousel .owl-item .item img {
   .breadcrumbs-row ul li {
     list-style: none;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
     margin: 0 13px;
   }
 
@@ -12789,12 +12837,11 @@ h6 {
   background: #00A1E4;
 }
 
-.nav-tabs {
-  display: none;
-}
-
 .responsive-tabs {
   margin: 50px 0;
+}
+.responsive-tabs .nav-tabs {
+  display: none;
 }
 .responsive-tabs h6 {
   margin-bottom: 30px;
@@ -12926,19 +12973,16 @@ h6 {
 }
 
 @media (min-width: 993px) {
-  .nav-tabs {
+  .responsive-tabs .nav-tabs {
     display: flex;
   }
-
-  .card {
+  .responsive-tabs .card {
     border: none;
   }
-
-  .card .card-header {
+  .responsive-tabs .card .card-header {
     display: none;
   }
-
-  .card .collapse {
+  .responsive-tabs .card .collapse {
     display: block;
   }
 }
@@ -12955,11 +12999,10 @@ h6 {
   }
 }
 @media (max-width: 992px) {
-  .tab-content > .tab-pane {
+  .responsive-tabs .tab-content > .tab-pane {
     display: block !important;
     opacity: 1;
   }
-
   .responsive-tabs .vertical-tabs ul.sub-tabs {
     width: 100%;
     display: block;

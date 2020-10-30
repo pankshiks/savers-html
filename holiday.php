@@ -167,12 +167,12 @@
 		<div class="col-md-6">
 			<div class="vertical-list-wrap">
 				<div class="row">
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-right">
 						<div class="media-block">
 							<img src="images/v1.jpg">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 space-left">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>My dream shipping container home with Value Village</p>
@@ -190,12 +190,12 @@
 		<div class="col-md-6">
 			<div class="vertical-list-wrap">
 				<div class="row">
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-right">
 						<div class="media-block">
 							<img src="images/v2.jpg">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 space-left">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>Clothing waste has always been a big concern for me with a career in blogging. It can be hard not to get caught up in always wearing.</p>
@@ -213,12 +213,12 @@
 		<div class="col-md-6">
 			<div class="vertical-list-wrap">
 				<div class="row">
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-right">
 						<div class="media-block">
 							<img src="images/v3.jpg">
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6 col-6">
+					<div class="col-md-6 col-sm-6 col-6 space-left">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>Transformed a skirt suit from a Value Village thrift find, baby DIY steps towards someday making my own blazer (still scary).</p>
@@ -236,12 +236,12 @@
 		<div class="col-md-6">
 			<div class="vertical-list-wrap">
 				<div class="row">
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-right">
 						<div class="media-block">
 							<img src="images/v4.jpg">
 						</div>
 					</div>
-					<div class="col-md-6 col-6">
+					<div class="col-md-6 col-6 space-left">
 						<div class="media-info">
 							<h6>Style your dream space with secondhand finds</h6>
 							<p>Treat your family on your next thriftventure! Find budget-friendly toys, books and more for your kids to enjoy at Value Village.</p>
