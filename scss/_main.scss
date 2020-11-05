@@ -12,7 +12,9 @@
 @import "components/common-elements.scss";
 @import "components/buttons.scss";
 @import "components/responsive-tabs.scss";
-
+@import "components/title-banner.scss";
+@import "components/next-pre-slider.scss";
+@import "components/modal.scss";
  
 
 
@@ -22,6 +24,7 @@
 
 /*Contact*/
 @import "pages/contact-page.scss";     
+@import "pages/about.scss";     
 
 
  

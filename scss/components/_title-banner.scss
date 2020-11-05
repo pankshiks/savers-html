@@ -1,0 +1,17 @@
+.banner-solid-bg {
+    &.banner-style-1 {
+        background-color: #003b5b;
+        background-image: url("../images/about-left-banner-icon.png"), url("../images/about-right-banner-icon.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: left top, right top;
+    }
+}
+
+@media(max-width: 767px) {
+    .banner-solid-bg {
+        &.banner-style-1 {
+            background: #003b5c url("../images/svg/mobile-contact-bg.svg") no-repeat;
+            background-size: 100%;
+        }
+    }
+}

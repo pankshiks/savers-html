@@ -1,0 +1,220 @@
+.about-info {
+    padding: 100px 0;
+    p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        margin: 110px 0;
+    }
+
+    img {
+        margin-top: 100px;
+    }
+}
+
+.about-story {
+    text-align: center;
+    background: #004e7d url("../images/about-story-starts.svg")no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    padding: 125px 0 40px 0;
+    overflow: hidden;
+    position: relative;
+    .container-fluid {
+        position: relative;
+        .col-12 {
+            position: static;
+        }
+    }
+    
+
+    h2 {
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    .text-block {
+        h4 {
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        .text-info-right {   
+            border-left: 1px solid #0063A3;
+            padding-top : 40px;
+            padding-bottom : 30px;
+        }
+    }
+
+    .large-text-cta.cta-white {
+        margin-top: 35px;
+    }
+}
+
+
+.about-process {
+    background: #f0f0f0;
+    h2 {
+        margin-bottom: 20px;
+    }
+    .text-block {
+        .text-info-left {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            h4 {
+                margin-bottom: 30px;
+            }
+        }
+        .text-info-right {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            border-left: 2px solid #fff;
+            .cta-black  {
+                display: inline-block;
+                margin-top: 35px;
+            }
+        }
+    }
+}
+
+.contact-info-block {
+    background: #004e7e;
+    text-align: center;
+    padding: 100px 0 80px 0;
+    position: relative;
+    &:after {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 33px;
+        background: url("../images/blue-layer-bottom2.png") repeat-x;
+        bottom: -33px;
+        content: "";
+    }
+    * {
+        color: #fff;
+    }
+
+    h3 {
+        margin-bottom: 40px;
+    }
+
+    ul {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0;
+        li {
+            float: left;   
+            margin: 0 100px;    
+            a:hover {
+                color: #fff;
+            }     
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .contact-info-block ul li {
+        float: left;
+        margin: 0 40px;
+    }
+}
+
+@media(max-width: 767px) and (orientation: landscape) {
+    .about-story {
+        background-position: 0 -80px !important
+        
+    }
+}
+@media(max-width: 767px) {
+    .about-info {
+        padding: 60px 0;
+
+        p {
+            font-size: 18px;
+            line-height: 26px;            
+        }
+
+        h4 {
+            margin: 70px 0;
+        }
+
+        img {
+            margin-top: 80px;
+        }
+    }
+
+    .about-story {
+        background: #004e7d  url("../images/svg/mobile-about-story-bg.svg")no-repeat;
+        padding-bottom: 0;
+        background-size: 100%;  
+      
+        .row {
+            margin: 0;
+        }
+        .container,
+        .col-12 {
+            padding: 0;
+        }
+
+        .text-block {
+            .text-info-right {
+                border-left: 0;
+                border-top: 1px solid #0063A3;
+            }
+            h4 {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .large-text-cta.cta-white {
+                font-size: 16px;
+                margin-top: 65px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .about-process {
+        h2 {
+            margin-bottom: 0;
+        }
+        .text-block {
+            .text-info-left {
+                h4 {
+                    margin-bottom: 50px;
+                }
+            }
+            .text-info-right {
+                padding-bottom: 0;
+                border-left: 0px solid #fff;
+                border-top: 1px solid #fff;
+                margin-top: 0;
+            }
+
+            .large-text-cta {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .blue-bg.width-round-borders{
+        padding: 50px 0;
+        &:before { 
+            background-size: auto;
+        }
+    }
+
+    .contact-info-block {
+        padding: 70px 0 30px 0;
+        ul li {
+            float: left;
+            margin: 0 0 25px 0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+}

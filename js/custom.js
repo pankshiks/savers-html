@@ -161,6 +161,32 @@ $("#next-prvs").owlCarousel({
   }
 });
 
+$(".next-pre-slider .owl-carousel").owlCarousel({
+  autoplay: true,
+  lazyLoad: true,
+  rewind: true,
+  margin: 20,
+  loop: true,
+   /*
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
+  */
+  responsiveClass: true,
+  autoHeight: true,
+  autoplayTimeout: 7000,
+  smartSpeed: 800,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+      margin: 0,
+    }, 767: {
+      items: 1,
+      margin: 20,
+    },
+  }
+});
+
 
 $("#media-carousel").owlCarousel({
   autoplay: true,

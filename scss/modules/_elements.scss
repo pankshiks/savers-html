@@ -693,6 +693,16 @@
 		h6 {
 			color:#fff;
 		}
+
+		p {
+			font-size: 13px;
+			line-height: 20px;
+			margin-top: 20px;
+			a {
+				color: #000;
+				text-decoration: underline;
+			}
+		}
 	}
 	
 	&.four-column-card-without-bg {
@@ -725,9 +735,25 @@
 			   background: #57100B;
 			}
 		}	
+
+		&.v2 {
+			h2 {
+				color: #000;
+			}
+
+			h6 {
+				color : #000;
+			}
+
+		}
 	}
 }
 
+@media(max-width: 767px) {
+	.four-column-card.v2 {
+		margin: 0;
+	}
+}
 
 .mosaic-block {
   .top-block {
@@ -1455,6 +1481,24 @@ body .textfield-wrap-with-btn {
 		font-size:13px;
 		color:#000;
 		text-decoration:underline;
+	}
+}
+.all-leaders {
+	h4 {
+		margin-top: 30px;
+	}
+	.team-listing {
+		display: flex;
+		flex-wrap: wrap;
+		float: left;
+		margin-top: 10px;
+
+	 
+		li {
+			width: 25%;
+			float: left;
+			cursor: pointer;
+		}
 	}
 }
 
@@ -2226,6 +2270,13 @@ body {
 }
 
 
+@media (max-width:992px) { 
+	.common-boxes-wrap.without-slider {
+		.common-card {
+			 
+		}
+	}
+}
 @media (max-width:767px) {
 	.full-bleed-banner {
 		background-position: center center;
@@ -2637,6 +2688,37 @@ body {
 
 
 
+@media (max-width:992px) {
+	.all-leaders {
+		.team-listing {
+			li {
+				width: 33.33%;
+			}
+		}
+	}
+}
+@media (max-width:767px) {
+	.all-leaders {
+		h4 {
+			margin-top: 0;
+		}
+		.team-listing {
+			li {
+				width: 50%;
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+
+			.name{
+				font-size: 18px;
+			}
+		}
+
+		
+	}
+}
 @media (max-width:575px) {
 	.find-store-newsletter {
 		.newsletter-inner {
